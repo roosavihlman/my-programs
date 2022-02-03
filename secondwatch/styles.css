@@ -1,0 +1,91 @@
+/*tyylittelyt*/
+
+.body{
+    font-family: 'Manjari', sans-serif;
+    text-align: center;
+}
+.madeBy{
+    background-color: rgba(192, 223, 233, 0.445);
+    margin: 0% 5% 0% 5%;
+}
+
+.savedHeader, .secondWatch {
+    background-color: rgb(125, 209, 224);
+    color: #FFF;
+    padding: 10px;
+    border-radius: 10px;;
+    margin: 5%;
+    margin-top: 10%;
+}
+.savedHeader {
+    margin-bottom: 10%;
+}
+.sides {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.counting {
+    grid-row: 1px;
+}
+.timer{
+    display:grid;
+    grid-template-columns: 17% 8% 17% 8% 17% 8% 17% ;
+    justify-content: center;
+    color: rgb(71, 71, 71);
+    background-color: rgb(125, 209, 224);
+    padding: 0px 20px;
+    margin: 10% 10% 0% 10%;
+    border-radius: 10px;
+    font-size:  30px;
+}
+.numbers {
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+}
+button{
+    margin: 10px;
+    background-color: rgb(211, 211, 211);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+    outline: none;
+}
+button:hover{
+    background-color: rgba(145, 217, 229, 0.788);
+    transition: 0.3s;
+}
+.noValue {
+    height: 25px;
+    margin: auto;
+    color: red;
+}
+.input{
+    width: 60%;
+    margin-bottom: -5px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: rgb(113, 193, 207) solid;
+    outline: none;
+}
+.input:focus::placeholder{
+    color: transparent;
+}
+.noTimes{
+    margin: auto;
+}
+.listItems {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: left;
+    margin: 0% 10%;
+}
+.listName {
+    text-align: left;
+}
+.listTime {
+    text-align: right;
+}
